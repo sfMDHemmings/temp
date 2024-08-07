@@ -1,0 +1,17 @@
+.container {
+    display: block;
+    height: 100%;
+    padding-right: $container-gutter-width-mobile;
+    padding-left: $container-gutter-width-mobile;
+    margin-right: auto;
+    margin-left: auto;
+
+    @include breakpoint(md) {
+        padding-right: $container-gutter-width;
+        padding-left: $container-gutter-width;
+    }
+
+    @include breakpoint(lg) {
+        max-width: $container-width;
+    }
+}

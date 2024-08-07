@@ -1,0 +1,70 @@
+/* Base */
+.button {
+    position: relative;
+    border-radius: 33px;
+    border-width: 1px;
+    border-style: solid;
+    cursor: pointer;
+    padding: 10px 25px;
+    font-size: $font-size-base;
+    font-weight: $font-weight-medium;
+    text-align: center;
+    text-transform: none;
+    transition: $transition-base;
+}
+
+a.button {
+    display: inline-block;
+    text-decoration: none;
+}
+
+button.button {
+    outline: 0;
+    border: 0;
+    cursor: pointer;
+}
+
+.button + .button {
+    margin-left: 12px;
+}
+
+/* Primary */
+.button--primary {
+    background-color: $c-button-primary-background;
+    border-color: $c-button-primary-border;
+    color: $c-button-primary-text;
+
+    &:hover {
+        background-color: $c-button-primary-background-hover;
+        border-color: $c-button-primary-border-hover;
+        color: $c-button-primary-text-hover;
+    }
+
+    &:focus {
+        color: $c-button-primary-text-hover;
+    }
+}
+
+/* Secondary */
+.button--secondary {
+    background-color: $c-button-secondary-background;
+    border-color: $c-button-secondary-border;
+    color: $c-button-secondary-text;
+
+    &:hover {
+        background-color: $c-button-secondary-background-hover;
+        border-color: $c-button-secondary-border-hover;
+        color: $c-button-secondary-text-hover;
+    }
+
+    &:focus {
+        color: $c-button-secondary-text-hover;
+    }
+}
+
+/* Sizes */
+.button--small {
+    font-size: $font-size-xs;
+    line-height: $line-height-xs;
+    padding: 4px 20px;
+}

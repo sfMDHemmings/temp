@@ -1,0 +1,80 @@
+.client-grid {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  // padding-top: vw($block-spacing * 3); // * 4
+  overflow: hidden;
+
+  // &__header {
+  //     text-align: center;
+
+  //     h2 {
+  //         font-size: vw-mobile($font-size-7);
+  //         line-height: vw-mobile($line-height-7);
+  //         margin: 0;
+
+  //         @include breakpoint(tablet) {
+  //             font-size: vw-tablet($font-size-7);
+  //             line-height: vw-tablet($line-height-7);
+  //         }
+
+  //         @include breakpoint(tabletWide) {
+  //             font-size: vw($font-size-6);
+  //             line-height: vw($line-height-6);
+  //         }
+  //     }
+  // }
+
+  &__row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+    // flex-wrap: wrap; // TODO: removed until theres 6 logos available
+    margin: 0 auto;
+    overflow-x: scroll;
+    width: 100vw;
+
+    @include breakpoint(md) {
+      width: 100%;
+    }
+
+    &::-webkit-scrollbar {
+      display: none;
+    }
+  }
+
+  &__item {
+    position: relative;
+    flex: 0 0 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 30px;
+
+    @include breakpoint(md) {
+      flex: 0 0 auto;
+      margin: 0;
+      width: 20%;
+    }
+
+    @include breakpoint(mdw) {
+      width: calc(20% - 30px);
+    }
+
+    &::before {
+      content: "";
+      display: block;
+      padding-top: 100%;
+    }
+
+    img {
+      filter: brightness(0);
+      height: auto;
+
+      @include breakpoint(md) {
+        width: 60%; // TODO: 50% when 6 logos available
+      }
+    }
+  }
+}

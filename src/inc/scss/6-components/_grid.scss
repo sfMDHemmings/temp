@@ -1,0 +1,15 @@
+.grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    padding-top: $block-spacing;
+    padding-bottom: $block-spacing;
+
+    @include breakpoint(smw) {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    @include breakpoint(mdw) {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}

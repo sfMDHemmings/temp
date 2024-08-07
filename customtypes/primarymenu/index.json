@@ -1,0 +1,34 @@
+{
+    "id": "primarymenu",
+    "label": "PrimaryMenu",
+    "format": "custom",
+    "repeatable": false,
+    "status": true,
+    "json": {
+        "Primary Menu": {
+            "navigation": {
+                "type": "Group",
+                "config": {
+                    "label": "Navigation",
+                    "fields": {
+                        "menu_item": {
+                            "type": "Link",
+                            "config": {
+                                "label": "Menu Item",
+                                "select": "document",
+                                "customtypes": ["homepage", "page", "posts"]
+                            }
+                        },
+                        "menu_label": {
+                            "type": "Text",
+                            "config": {
+                                "label": "Menu Label",
+                                "placeholder": ""
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

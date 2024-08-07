@@ -1,0 +1,39 @@
+[
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "default",
+		"primary": {
+			"type": {
+				"__TYPE__": "FieldContent",
+				"value": "Article",
+				"type": "Select"
+			},
+			"url": {
+				"__TYPE__": "FieldContent",
+				"value": "purpose",
+				"type": "Text"
+			},
+			"headline": {
+				"__TYPE__": "FieldContent",
+				"value": "bone",
+				"type": "Text"
+			},
+			"imageUrl": {
+				"__TYPE__": "FieldContent",
+				"value": "sand",
+				"type": "Text"
+			},
+			"datePublished": {
+				"__TYPE__": "FieldContent",
+				"type": "Timestamp",
+				"value": "2016-02-23T10:28:50Z"
+			},
+			"dateModified": {
+				"__TYPE__": "FieldContent",
+				"type": "Timestamp",
+				"value": "2015-12-29T07:11:32Z"
+			}
+		},
+		"items": []
+	}
+]

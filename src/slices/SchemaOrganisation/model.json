@@ -1,0 +1,148 @@
+{
+  "id": "schema_organisation",
+  "type": "SharedSlice",
+  "name": "SchemaOrganisation",
+  "description": "SchemaOrganisation",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {
+        "type": {
+          "type": "Select",
+          "config": {
+            "label": "Type",
+            "placeholder": "",
+            "options": [
+              "Airline",
+              "Consortium",
+              "Corporation",
+              "Educational Organization > ElementarySchool",
+              "Educational Organization > HighSchool",
+              "Educational Organization > MiddleSchool",
+              "Educational Organization > PreSchool",
+              "Educational Organization > School",
+              "Educational Organization > Other",
+              "FundingScheme",
+              "GovernmentOrganization",
+              "LibrarySystem",
+              "MedicalOrganization",
+              "NGO",
+              "NewsMediaOrganization > Dentist",
+              "NewsMediaOrganization > DiagnosticLab",
+              "NewsMediaOrganization > Hospital",
+              "NewsMediaOrganization > MedicalClinic",
+              "NewsMediaOrganization > Pharmacy",
+              "NewsMediaOrganization > Physician",
+              "NewsMediaOrganization > VeterinaryCare",
+              "NewsMediaOrganization > Other",
+              "Organization",
+              "PerformingGroup > DanceGroup",
+              "PerformingGroup > MusicGroup",
+              "PerformingGroup > TheaterGroup",
+              "PerformingGroup > Other",
+              "Project > FundingAgency",
+              "Project > ResearchProject",
+              "Project > Other",
+              "SportsOrganization > SportsTeam",
+              "SportsOrganization > Other",
+              "WorkersUnion"
+            ],
+            "default_value": "Airline"
+          }
+        },
+        "name": {
+          "type": "Text",
+          "config": {
+            "label": "Name",
+            "placeholder": "Required"
+          }
+        },
+        "logo": {
+          "type": "Text",
+          "config": {
+            "label": "Logo URL",
+            "placeholder": "Required"
+          }
+        },
+        "url": {
+          "type": "Text",
+          "config": {
+            "label": "Website URL",
+            "placeholder": "Required"
+          }
+        },
+        "streetAddress": {
+          "type": "Text",
+          "config": {
+            "label": "Street Address",
+            "placeholder": "Required"
+          }
+        },
+        "addressLocality": {
+          "type": "Text",
+          "config": {
+            "label": "City",
+            "placeholder": "Required"
+          }
+        },
+        "addressRegion": {
+          "type": "Text",
+          "config": {
+            "label": "State/Province/Region",
+            "placeholder": "Required"
+          }
+        },
+        "addressCountry": {
+          "type": "Text",
+          "config": {
+            "label": "Country",
+            "placeholder": "Required"
+          }
+        },
+        "include_social_profiles": {
+          "type": "Boolean",
+          "config": {
+            "label": "Include social profiles",
+            "default_value": false,
+            "placeholder_true": "true",
+            "placeholder_false": "false"
+          }
+        },
+        "facebook": {
+          "type": "Text",
+          "config": {
+            "label": "Facebook",
+            "placeholder": ""
+          }
+        },
+        "instagram": {
+          "type": "Text",
+          "config": {
+            "label": "Instagram",
+            "placeholder": ""
+          }
+        },
+        "linkedin": {
+          "type": "Text",
+          "config": {
+            "label": "LinkedIn",
+            "placeholder": ""
+          }
+        },
+        "twitter": {
+          "type": "Text",
+          "config": {
+            "label": "Twitter",
+            "placeholder": ""
+          }
+        }
+      },
+      "items": {}
+    }
+  ]
+}

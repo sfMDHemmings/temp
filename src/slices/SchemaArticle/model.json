@@ -1,0 +1,93 @@
+{
+  "id": "schema_article",
+  "type": "SharedSlice",
+  "name": "SchemaArticle",
+  "description": "SchemaArticle",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {
+        "type": {
+          "type": "Select",
+          "config": {
+            "label": "Type",
+            "placeholder": "",
+            "options": ["Article", "BlogPosting", "BlogArticle"],
+            "default_value": "Article"
+          }
+        },
+        "url": {
+          "type": "Text",
+          "config": {
+            "label": "URL",
+            "placeholder": ""
+          }
+        },
+        "headline": {
+          "type": "Text",
+          "config": {
+            "label": "Headline",
+            "placeholder": ""
+          }
+        },
+        "imageUrl": {
+          "type": "Text",
+          "config": {
+            "label": "Image URL",
+            "placeholder": ""
+          }
+        },
+        "datePublished": {
+          "type": "Timestamp",
+          "config": {
+            "label": "Date published",
+            "placeholder": ""
+          }
+        },
+        "dateModified": {
+          "type": "Timestamp",
+          "config": {
+            "label": "Date modified",
+            "placeholder": ""
+          }
+        },
+        "authorType": {
+          "type": "Select",
+          "config": {
+            "label": "Author type",
+            "placeholder": "",
+            "options": ["Person", "Organization"],
+            "default_value": "Person"
+          }
+        },
+        "authorName": {
+          "type": "Text",
+          "config": {
+            "label": "Author name",
+            "placeholder": ""
+          }
+        },
+        "publisherName": {
+          "type": "Text",
+          "config": {
+            "label": "Publisher name",
+            "placeholder": ""
+          }
+        },
+        "publisherLogoUrl": {
+          "type": "Text",
+          "config": {
+            "label": "Publisher logo URL",
+            "placeholder": ""
+          }
+        }
+      },
+      "items": {}
+    }
+  ]
+}

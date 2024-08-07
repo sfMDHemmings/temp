@@ -1,0 +1,101 @@
+/**
+ * The structure is based on ITCSS.
+ *
+ * This is where all of the stylesheets are compiled.
+ * They are processed in the order they are imported
+ * to ensure the consistent increase of specificity.
+ *
+ *    ITCSS Methodology: Inverted Triangle CSS
+ *
+ *    ****************   1. Settings
+ *     **************    2. Tools
+ *      ************     3. Generic
+ *       **********      4. Objects
+ *        ********       5. Elements
+ *         ******        6. Components
+ *          ****         7. Blocks
+ *           **          8. Utilities
+ *
+ * 1. Settings
+ *    Global configuration and variables.
+ *    Breakpoints, colors, spacing, utilities etc.
+ *
+ * 2. Tools
+ *    Functions and mixins.
+ *
+ * 3. Generic
+ *    Ground zero styles. No classes.
+ *
+ * 4. Objects
+ *    Common non-cosmetic structural design patterns.
+ *    Containers, rows, grids, colums etc.
+ *
+ * 5. Elements
+ *    Unclassed (bare) HTML element.b
+ *    H1, Ul, A etc.
+ *
+ * 6. Components
+ *    Specific cosmetic elements of UI.
+ *    Buttons, forms etc.
+ *
+ * 7. Blocks
+ *    Multi-part components.
+ *    Navbar, footer etc.
+ *
+ * 8. Templates
+ *    Template/page specific styles
+ *
+ * 9. Utilities
+ *    Helpers and overrides.
+ *
+ * Ref: https://www.xfive.co/blog/itcss-scalable-maintainable-css-architecture/
+ */
+@import '1-settings/breakpoints.scss';
+@import '1-settings/colors.scss';
+@import '1-settings/container.scss';
+@import '1-settings/spacing.scss';
+@import '1-settings/typography.scss';
+@import '1-settings/transitions.scss';
+
+@import '2-tools/breakpoints.scss';
+@import '2-tools/px-to-vw.scss';
+@import '2-tools/placeholder.scss';
+
+@import '3-generic/font-face.scss';
+@import '3-generic/reset.scss';
+
+@import '4-elements/blockquote.scss';
+@import '4-elements/document.scss';
+@import '4-elements/typography.scss';
+
+// @import '5-objects/buttons.scss';
+@import '5-objects/containers.scss';
+@import '5-objects/typography.scss';
+
+@import '6-components/button.scss';
+@import '6-components/card.scss';
+@import '6-components/client-grid.scss';
+@import '6-components/features-grid.scss';
+@import '6-components/footer.scss';
+@import '6-components/form.scss';
+@import '6-components/form-field.scss';
+@import '6-components/form-group.scss';
+@import '6-components/form-field-error.scss';
+@import '6-components/form-input-checkbox.scss';
+@import '6-components/form-input-radio.scss';
+@import '6-components/form-input-text.scss';
+@import '6-components/form-label.scss';
+@import '6-components/form-select.scss';
+@import '6-components/form-text.scss';
+@import '6-components/grid.scss';
+@import '6-components/header.scss';
+@import '6-components/hero-text.scss';
+@import '6-components/nav.scss';
+@import '6-components/social-list.scss';
+@import '6-components/text-block.scss';
+
+@import '9-utility/utility.scss';
+
+// Slick
+// @import 'slick-carousel/slick/slick.css';
+// @import 'slick-carousel/slick/slick-theme.css';

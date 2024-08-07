@@ -1,0 +1,17 @@
+.form-input-text {
+    border: 1px solid $c-form-border;
+    border-radius: 24px;
+    background-color: $c-form-background;
+    color: $c-form-text;
+    font-size: $font-size-base;
+    padding: 8px 15px;
+    width: 100%;
+
+    &:focus {
+        outline-color: $c-form-outline;
+    }
+
+    @include placeholder {
+        color: $c-form-placeholder-text;
+    }
+}

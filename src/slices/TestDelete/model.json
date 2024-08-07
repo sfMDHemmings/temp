@@ -1,0 +1,26 @@
+{
+  "id": "test_delete",
+  "type": "SharedSlice",
+  "name": "TestDelete",
+  "description": "TestDelete",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {
+        "title": {
+          "type": "Text",
+          "config": {
+            "label": "Title",
+            "placeholder": ""
+          }
+        }
+      },
+      "items": {}
+    }
+  ]
+}

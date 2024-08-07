@@ -1,0 +1,93 @@
+{
+  "id": "globaloptions",
+  "label": "GlobalOptions",
+  "format": "custom",
+  "repeatable": false,
+  "status": true,
+  "json": {
+    "Global Options": {
+      "logo": {
+        "type": "Image",
+        "config": {
+          "label": "Logo",
+          "constraint": {
+            "width": 190
+          },
+          "thumbnails": []
+        }
+      },
+      "email_address": {
+        "type": "Text",
+        "config": {
+          "label": "Email Address",
+          "placeholder": "Add contact email address"
+        }
+      },
+      "phone_number": {
+        "type": "Text",
+        "config": {
+          "label": "Phone Number",
+          "placeholder": "Add contact phone number"
+        }
+      },
+      "address": {
+        "type": "Group",
+        "config": {
+          "label": "Address",
+          "repeat": false,
+          "fields": {
+            "address_line_one": {
+              "type": "Text",
+              "config": {
+                "label": "Address Line One",
+                "placeholder": ""
+              }
+            },
+            "address_line_two": {
+              "type": "Text",
+              "config": {
+                "label": "Address Line Two",
+                "placeholder": ""
+              }
+            },
+            "town_city": {
+              "type": "Text",
+              "config": {
+                "label": "Town/City",
+                "placeholder": ""
+              }
+            },
+            "county": {
+              "type": "Text",
+              "config": {
+                "label": "County",
+                "placeholder": ""
+              }
+            },
+            "postcode": {
+              "type": "Text",
+              "config": {
+                "label": "Postcode",
+                "placeholder": ""
+              }
+            },
+            "country": {
+              "type": "Text",
+              "config": {
+                "label": "Country",
+                "placeholder": ""
+              }
+            }
+          }
+        }
+      },
+      "copyright": {
+        "type": "Text",
+        "config": {
+          "label": "Copyright",
+          "placeholder": ""
+        }
+      }
+    }
+  }
+}

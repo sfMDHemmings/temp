@@ -1,0 +1,37 @@
+.nav {
+    display: flex;
+    margin-left: -10px;
+    margin-right: -10px;
+    padding: 0;
+    list-style: none;
+
+    &__item {
+        display: flex;
+        padding: 0 10px;
+    }
+
+    &__link {
+        color: $c-link;
+        cursor: pointer;
+        text-decoration: none;
+        text-transform: capitalize;
+        font-weight: $font-weight-medium;
+
+        &:hover,
+        &:focus,
+        &.active {
+            color: $c-link-hover;
+            text-decoration: none;
+        }
+
+        &--light {
+            color: $c-link-light;
+            text-decoration: underline;
+
+            &:hover {
+                color: $c-link-light-hover;
+                text-decoration: none;
+            }
+        }
+    }
+}

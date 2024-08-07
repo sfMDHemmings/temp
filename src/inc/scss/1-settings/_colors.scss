@@ -1,0 +1,64 @@
+/* Base */
+$c-white: #ffffff;
+$c-black: #000000;
+$c-grey: #333333;
+
+/* Demo Colours */
+$c-demo-grayscale-50: rgb(248, 248, 248);
+$c-demo-grayscale-100: rgb(240, 240, 240);
+$c-demo-grayscale-200: rgb(225, 225, 225);
+$c-demo-grayscale-300: rgb(205, 205, 205);
+$c-demo-grayscale-400: rgb(174, 174, 174);
+$c-demo-grayscale-500: rgb(145, 145, 145);
+$c-demo-grayscale-600: rgb(118, 118, 118);
+$c-demo-grayscale-700: rgb(94, 94, 94);
+$c-demo-grayscale-800: rgb(75, 75, 75);
+$c-demo-grayscale-900: rgb(61, 61, 61);
+$c-demo-grayscale-950: rgb(34, 34, 34);
+
+/* Brand */
+$c-brand-primary: #d9291c;
+$c-brand-secondary: #00205b;
+$c-brand-tierney: #addc91;
+
+/* Text */
+$c-text: $c-grey;
+$c-text-light: $c-white;
+
+/* Links */
+$c-link: $c-brand-secondary;
+$c-link-hover: $c-brand-primary;
+$c-link-light: $c-white;
+$c-link-light-hover: $c-demo-grayscale-100;
+
+/* Buttons */
+$c-button-primary-background: $c-demo-grayscale-700;
+$c-button-primary-background-hover: $c-demo-grayscale-600;
+$c-button-primary-border: $c-demo-grayscale-700;
+$c-button-primary-border-hover: $c-demo-grayscale-600;
+$c-button-primary-text: $c-white;
+$c-button-primary-text-hover: $c-white;
+$c-button-secondary-background: $c-brand-secondary;
+$c-button-secondary-background-hover: $c-brand-tierney;
+$c-button-secondary-border: $c-brand-secondary;
+$c-button-secondary-border-hover: $c-brand-tierney;
+$c-button-secondary-text: $c-white;
+$c-button-secondary-text-hover: $c-white;
+$c-button-disabled-background: $c-demo-grayscale-400;
+$c-button-disabled-border: $c-demo-grayscale-400;
+$c-button-disabled-text: $c-demo-grayscale-400;
+
+/* Forms */
+$c-form-background: $c-white;
+$c-form-border: $c-white;
+$c-form-disabled-background: $c-demo-grayscale-400;
+$c-form-disabled-border: $c-demo-grayscale-400;
+$c-form-disabled-text: $c-demo-grayscale-400;
+$c-form-placeholder-text: $c-demo-grayscale-400;
+$c-form-text: $c-text;
+$c-form-outline: $c-black;
+
+/* Utility */
+$c-utility-error: $c-white;
+$c-utility-success: green;
+$c-utility-warning: orange;

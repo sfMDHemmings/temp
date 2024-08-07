@@ -1,0 +1,17 @@
+.form-select {
+    appearance: none;
+    background: transparent
+        url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8'%3F%3E%3Csvg width='15px' height='9px' viewBox='0 0 15 9' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Ctitle%3EPath%3C/title%3E%3Cg id='Component-Wireframes-&gt;Form-Fields' stroke='none' stroke-width='1' fill='none' fill-rule='evenodd'%3E%3Cg id='Form-Fields' transform='translate(-558, -600)' fill='%23120C0F' fill-rule='nonzero'%3E%3Cg id='Group-2' transform='translate(163, 562)'%3E%3Cg id='Group' transform='translate(0, 22)'%3E%3Cg id='chevron-down-svgrepo-com' transform='translate(395, 16)'%3E%3Cpath d='M7.52181795,8.49503423 C7.39093614,8.49555759 7.26111733,8.4700456 7.14020114,8.41981888 C7.01928496,8.36972503 6.90953026,8.29584657 6.81758081,8.20270124 L0.17383422,1.55895465 C0.0413180506,1.36506355 -0.0184756687,1.13063231 0.00499004425,0.896985029 C0.0284424697,0.663351036 0.133666128,0.445489298 0.302071817,0.281840532 C0.470477505,0.118205053 0.691262492,0.0192796667 0.925494422,0.00253742527 C1.15971306,-0.0142048161 1.39232392,0.0522990872 1.5823085,0.190316279 L7.52181795,6.08998983 L13.4613274,0.190316279 C13.6486811,0.0688818787 13.8712466,0.013845082 14.0935463,0.0340154966 C14.3158461,0.0541991987 14.5249912,0.1484341 14.6873644,0.301612322 C14.8497376,0.454790543 14.9559046,0.658036039 14.9889905,0.87879445 C15.0220763,1.09953957 14.9800879,1.32501505 14.8698017,1.5190656 L8.22605509,8.16283876 C8.13742751,8.26315933 8.02926731,8.34447879 7.90821825,8.40161501 C7.78716919,8.45875123 7.655623,8.49050834 7.52181795,8.49503423 Z' id='Path'%3E%3C/path%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/svg%3E")
+        97% 50% no-repeat;
+    border: 1px solid $c-form-border;
+    border-radius: 8px;
+    background-color: $c-form-background;
+    color: $c-form-text;
+    font-size: $font-size-base;
+    padding: 8px 15px;
+    width: 100%;
+
+    &:focus {
+        outline-color: $c-form-outline;
+    }
+}

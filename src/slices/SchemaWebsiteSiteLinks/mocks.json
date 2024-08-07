@@ -1,0 +1,19 @@
+[
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "default",
+		"primary": {
+			"url": {
+				"__TYPE__": "FieldContent",
+				"value": "to",
+				"type": "Text"
+			},
+			"target": {
+				"__TYPE__": "FieldContent",
+				"value": "signal",
+				"type": "Text"
+			}
+		},
+		"items": []
+	}
+]

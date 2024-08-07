@@ -1,0 +1,237 @@
+{
+  "id": "schema_event",
+  "type": "SharedSlice",
+  "name": "SchemaEvent",
+  "description": "SchemaEvent",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {
+        "name": {
+          "type": "Text",
+          "config": {
+            "label": "Name",
+            "placeholder": ""
+          }
+        },
+        "description": {
+          "type": "Text",
+          "config": {
+            "label": "Description",
+            "placeholder": ""
+          }
+        },
+        "image": {
+          "type": "Text",
+          "config": {
+            "label": "Image URl",
+            "placeholder": ""
+          }
+        },
+        "attendance_mode": {
+          "type": "Select",
+          "config": {
+            "label": "Attendance Mode",
+            "placeholder": "",
+            "options": [
+              "Mixed",
+              "Offline",
+              "Online"
+            ],
+            "default_value": "Mixed"
+          }
+        },
+        "status": {
+          "type": "Select",
+          "config": {
+            "label": "Status",
+            "placeholder": "",
+            "options": [
+              "Scheduled",
+              "Moved online",
+              "Postponed",
+              "Rescheduled",
+              "Cancelled"
+            ],
+            "default_value": "Scheduled"
+          }
+        },
+        "startDate": {
+          "type": "Timestamp",
+          "config": {
+            "label": "Start date & time",
+            "placeholder": ""
+          }
+        },
+        "endDate": {
+          "type": "Timestamp",
+          "config": {
+            "label": "End date & time",
+            "placeholder": ""
+          }
+        },
+        "locationName": {
+          "type": "Text",
+          "config": {
+            "label": "Location name",
+            "placeholder": ""
+          }
+        },
+        "locationStreetAddress": {
+          "type": "Text",
+          "config": {
+            "label": "Street Address",
+            "placeholder": ""
+          }
+        },
+        "locationAddressLocality": {
+          "type": "Text",
+          "config": {
+            "label": "City",
+            "placeholder": ""
+          }
+        },
+        "locationAddressRegion": {
+          "type": "Text",
+          "config": {
+            "label": "State/Province/Region",
+            "placeholder": "Required"
+          }
+        },
+        "locationAddressCountry": {
+          "type": "Text",
+          "config": {
+            "label": "Country",
+            "placeholder": "Required"
+          }
+        },
+        "locationUrl": {
+          "type": "Text",
+          "config": {
+            "label": "Location URL",
+            "placeholder": ""
+          }
+        },
+        "include_offer": {
+          "type": "Boolean",
+          "config": {
+            "label": "Include offer",
+            "default_value": false,
+            "placeholder_true": "true",
+            "placeholder_false": "false"
+          }
+        },
+        "offerAvailability": {
+          "type": "Select",
+          "config": {
+            "label": "Offer availability",
+            "placeholder": "",
+            "options": [
+              "In stock",
+              "Sold out",
+              "Pre-order"
+            ],
+            "default_value": "In stock"
+          }
+        },
+        "offerPrice": {
+          "type": "Text",
+          "config": {
+            "label": "Price",
+            "placeholder": ""
+          }
+        },
+        "offerPriceCurrency": {
+          "type": "Text",
+          "config": {
+            "label": "Currency",
+            "placeholder": ""
+          }
+        },
+        "offerValidFrom": {
+          "type": "Timestamp",
+          "config": {
+            "label": "Price valid from date & time",
+            "placeholder": ""
+          }
+        },
+        "offerUrl": {
+          "type": "Text",
+          "config": {
+            "label": "Offer URL",
+            "placeholder": ""
+          }
+        },
+        "included_organiser": {
+          "type": "Boolean",
+          "config": {
+            "label": "Included Organiser",
+            "default_value": false,
+            "placeholder_true": "true",
+            "placeholder_false": "false"
+          }
+        },
+        "organiserPerformerType": {
+          "type": "Select",
+          "config": {
+            "label": "Organiser Type",
+            "placeholder": "",
+            "options": [
+              "Person",
+              "PerformingGroup"
+            ],
+            "default_value": "Person"
+          }
+        },
+        "organiserName": {
+          "type": "Text",
+          "config": {
+            "label": "Organiser Name",
+            "placeholder": ""
+          }
+        },
+        "organiserUrl": {
+          "type": "Text",
+          "config": {
+            "label": "Organiser URL",
+            "placeholder": ""
+          }
+        },
+        "include_performer": {
+          "type": "Boolean",
+          "config": {
+            "label": "Include performer",
+            "default_value": false,
+            "placeholder_true": "true",
+            "placeholder_false": "false"
+          }
+        },
+        "performerType": {
+          "type": "Select",
+          "config": {
+            "label": "Performer Type",
+            "placeholder": "",
+            "options": [
+              "Person",
+              "PerformingGroup"
+            ],
+            "default_value": "Person"
+          }
+        },
+        "performerName": {
+          "type": "Text",
+          "config": {
+            "label": "Performer Name",
+            "placeholder": ""
+          }
+        }
+      },
+      "items": {}
+    }
+  ]
+}

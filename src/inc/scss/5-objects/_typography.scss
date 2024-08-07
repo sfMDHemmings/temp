@@ -1,0 +1,18 @@
+.prefix {
+  font-family: $body-font;
+  font-weight: $font-weight-semibold;
+  font-size: $font-size-xs;
+  font-weight: $font-weight-medium;
+  line-height: $line-height-xs;
+  letter-spacing: 2px;
+  margin: 0 0 10px 0;
+  text-align: center;
+  text-transform: none;
+}
+
+.tagline {
+  font-family: $body-font;
+  font-size: $font-size-sm;
+  font-weight: $font-weight;
+  line-height: $line-height-sm;
+}

@@ -1,0 +1,24 @@
+.form {
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 700px;
+    margin: auto;
+    padding-top: $block-spacing;
+    padding-left: $container-gutter-width;
+    padding-right: $container-gutter-width;
+    padding-bottom: $block-spacing;
+
+    &::before {
+        position: absolute;
+        z-index: -1;
+        content: '';
+        top: 0;
+        left: calc(-50vw + 50%);
+        background-color: $c-brand-primary;
+        height: 100%;
+        width: 100vw;
+    }
+}

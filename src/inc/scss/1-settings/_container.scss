@@ -1,0 +1,4 @@
+$container-gutter-width: 48px;
+$container-gutter-width-mobile: 20px;
+$container-width: calc(1150px + #{$container-gutter-width} * 2);
+$container-max-width: 1530px;

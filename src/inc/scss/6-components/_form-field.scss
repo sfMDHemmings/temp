@@ -1,0 +1,10 @@
+.form-field {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-bottom: 20px;
+
+    &--half {
+        width: calc(50% - 10px);
+    }
+}

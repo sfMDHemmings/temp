@@ -1,0 +1,106 @@
+{
+    "id": "homepage",
+    "label": "Homepage",
+    "format": "page",
+    "repeatable": false,
+    "status": true,
+    "json": {
+        "Main": {
+            "uid": {
+                "type": "UID",
+                "config": {
+                    "label": "UID",
+                    "placeholder": ""
+                }
+            },
+            "slices": {
+                "type": "Slices",
+                "fieldset": "Slice Zone",
+                "config": {
+                    "choices": {}
+                }
+            }
+        },
+        "SEO & Metadata": {
+            "meta_title": {
+                "config": {
+                    "label": "Meta Title",
+                    "placeholder": "A title of the page used for social media and search engines"
+                },
+                "type": "Text"
+            },
+            "meta_description": {
+                "config": {
+                    "label": "Meta Description",
+                    "placeholder": "A brief summary of the page"
+                },
+                "type": "Text"
+            },
+            "meta_image": {
+                "config": {
+                    "constraint": {
+                        "height": 1260,
+                        "width": 2400
+                    },
+                    "label": "Meta Image",
+                    "thumbnails": []
+                },
+                "type": "Image"
+            },
+            "slices1": {
+                "type": "Slices",
+                "fieldset": "Slice Zone",
+                "config": {
+                    "choices": {
+                        "schema_faq": {
+                            "type": "SharedSlice"
+                        },
+                        "schema_website_site_links": {
+                            "type": "SharedSlice"
+                        },
+                        "schema_article": {
+                            "type": "SharedSlice"
+                        },
+                        "schema_event": {
+                            "type": "SharedSlice"
+                        },
+                        "schema_organisation": {
+                            "type": "SharedSlice"
+                        }
+                    }
+                }
+            }
+        },
+        "Page Builder": {
+            "slices2": {
+                "type": "Slices",
+                "fieldset": "Slice Zone",
+                "config": {
+                    "choices": {
+                        "text_block": {
+                            "type": "SharedSlice"
+                        },
+                        "lead_gen_form": {
+                            "type": "SharedSlice"
+                        },
+                        "contact_form": {
+                            "type": "SharedSlice"
+                        },
+                        "client_grid": {
+                            "type": "SharedSlice"
+                        },
+                        "features_grid": {
+                            "type": "SharedSlice"
+                        },
+                        "herotext": {
+                            "type": "SharedSlice"
+                        },
+                        "test_delete": {
+                            "type": "SharedSlice"
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

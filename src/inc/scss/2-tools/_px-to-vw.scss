@@ -1,0 +1,27 @@
+/**
+ * PX to VW 
+ * Function to convert px into vw values
+ */
+
+// Mobile calculations
+@function vw-mobile($target) {
+    $vw-context: (390 * 0.01) * 1px;
+    @return ($target / $vw-context) * 1vw;
+}
+
+// Tablet calculations
+@function vw-tablet($target) {
+    $vw-context: (600 * 0.01) * 1px;
+    @return ($target / $vw-context) * 1vw;
+}
+
+@function vw-tablet-wide($target) {
+    $vw-context: (991 * 0.01) * 1px;
+    @return ($target / $vw-context) * 1vw;
+}
+
+// Desktop calculations
+@function vw($target) {
+    $vw-context: (1440 * 0.01) * 1px;
+    @return ($target / $vw-context) * 1vw;
+}

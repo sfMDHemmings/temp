@@ -1,0 +1,111 @@
+[
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "default",
+		"primary": {
+			"name": {
+				"__TYPE__": "FieldContent",
+				"value": "exist",
+				"type": "Text"
+			},
+			"description": {
+				"__TYPE__": "FieldContent",
+				"value": "proud",
+				"type": "Text"
+			},
+			"image": {
+				"__TYPE__": "FieldContent",
+				"value": "brush",
+				"type": "Text"
+			},
+			"attendance_mode": {
+				"__TYPE__": "FieldContent",
+				"value": "Offline",
+				"type": "Select"
+			},
+			"timezone": {
+				"__TYPE__": "FieldContent",
+				"value": "simple",
+				"type": "Text"
+			},
+			"status": {
+				"__TYPE__": "FieldContent",
+				"value": "Postponed",
+				"type": "Select"
+			},
+			"startDate": {
+				"__TYPE__": "FieldContent",
+				"type": "Timestamp",
+				"value": "2017-11-25T15:04:04Z"
+			},
+			"endDate": {
+				"__TYPE__": "FieldContent",
+				"type": "Timestamp",
+				"value": "2018-12-16T12:18:42Z"
+			},
+			"locationName": {
+				"__TYPE__": "FieldContent",
+				"value": "butter",
+				"type": "Text"
+			},
+			"locationStreetAddress": {
+				"__TYPE__": "FieldContent",
+				"value": "nodded",
+				"type": "Text"
+			},
+			"locationAddressLocality": {
+				"__TYPE__": "FieldContent",
+				"value": "window",
+				"type": "Text"
+			},
+			"include_offer": {
+				"__TYPE__": "BooleanContent",
+				"value": false
+			},
+			"availability": {
+				"__TYPE__": "FieldContent",
+				"value": "worse",
+				"type": "Text"
+			},
+			"offerValidFrom": {
+				"__TYPE__": "FieldContent",
+				"type": "Timestamp",
+				"value": "2017-05-08T18:58:56Z"
+			},
+			"offerUrl": {
+				"__TYPE__": "FieldContent",
+				"value": "story",
+				"type": "Text"
+			},
+			"locationUrl": {
+				"__TYPE__": "FieldContent",
+				"value": "choice",
+				"type": "Text"
+			},
+			"include_performer": {
+				"__TYPE__": "BooleanContent",
+				"value": false
+			},
+			"performerName": {
+				"__TYPE__": "FieldContent",
+				"value": "nearby",
+				"type": "Text"
+			},
+			"performerType": {
+				"__TYPE__": "FieldContent",
+				"value": "Person",
+				"type": "Select"
+			},
+			"included_organiser": {
+				"__TYPE__": "BooleanContent",
+				"value": false
+			},
+			"offerAvailability": {
+				"__TYPE__": "FieldContent",
+				"value": "In stock",
+				"type": "Select"
+			}
+		},
+		"items": []
+	}
+]

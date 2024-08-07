@@ -1,0 +1,62 @@
+/* Typography */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: $c-brand-primary; // $c-text;
+    font-family: $heading-font;
+    font-weight: $font-weight-medium;
+    will-change: transform;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+h1,
+.h1 {
+    font-size: $font-size-xxl;
+    line-height: $line-height-xxl;
+    margin: 0 0 48px 0;
+}
+
+h2,
+.h2 {
+    font-size: $font-size-xl;
+    line-height: $line-height-xl;
+    margin: 0 0 48px 0;
+}
+
+h3,
+.h3 {
+    font-size: $font-size-lg;
+    line-height: $line-height-lg;
+    margin: 0 0 48px 0;
+}
+
+// TODO: all other Htags
+
+p {
+    font-family: $body-font;
+    font-size: $font-size-base;
+    font-weight: $font-weight-medium;
+    font-optical-sizing: auto;
+    font-style: normal;
+    line-height: $line-height-base;
+    margin: 0 0 20px 0;
+}
+
+// TODO: should be in own file
+a {
+    color: $c-link;
+
+    &:hover {
+        color: $c-link-hover;
+    }
+}
+
+svg,
+img + a {
+    margin-left: 8px;
+}

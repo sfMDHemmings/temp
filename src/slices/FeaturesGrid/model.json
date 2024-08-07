@@ -1,0 +1,75 @@
+{
+    "id": "features_grid",
+    "type": "SharedSlice",
+    "name": "FeaturesGrid",
+    "description": "FeaturesGrid",
+    "variations": [
+        {
+            "id": "default",
+            "name": "Default",
+            "docURL": "...",
+            "version": "sktwi1xtmkfgx8626",
+            "description": "FeaturesGrid",
+            "primary": {
+                "title": {
+                    "type": "StructuredText",
+                    "config": {
+                        "label": "Title",
+                        "placeholder": "",
+                        "allowTargetBlank": true,
+                        "single": "heading2"
+                    }
+                },
+                "tagline": {
+                    "type": "StructuredText",
+                    "config": {
+                        "label": "Tagline",
+                        "placeholder": "",
+                        "allowTargetBlank": true,
+                        "multi": "paragraph,strong,em,hyperlink"
+                    }
+                },
+                "button_text": {
+                    "type": "Text",
+                    "config": {
+                        "label": "Button Text",
+                        "placeholder": ""
+                    }
+                },
+                "button_link": {
+                    "type": "Link",
+                    "config": {
+                        "label": "Button Link",
+                        "placeholder": "",
+                        "select": null
+                    }
+                }
+            },
+            "items": {
+                "title": {
+                    "type": "Text",
+                    "config": {
+                        "label": "Title",
+                        "placeholder": ""
+                    }
+                },
+                "description": {
+                    "type": "Text",
+                    "config": {
+                        "label": "Description",
+                        "placeholder": ""
+                    }
+                },
+                "icon": {
+                    "type": "Image",
+                    "config": {
+                        "label": "Icon",
+                        "constraint": {},
+                        "thumbnails": []
+                    }
+                }
+            },
+            "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+        }
+    ]
+}

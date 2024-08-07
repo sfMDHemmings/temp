@@ -1,0 +1,33 @@
+{
+  "id": "schema_website_site_links",
+  "type": "SharedSlice",
+  "name": "SchemaWebsiteSiteLinks",
+  "description": "SchemaWebsiteSiteLinks",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {
+        "url": {
+          "type": "Text",
+          "config": {
+            "label": "URL",
+            "placeholder": "Required"
+          }
+        },
+        "target": {
+          "type": "Text",
+          "config": {
+            "label": "Sitesearch URL",
+            "placeholder": "Required"
+          }
+        }
+      },
+      "items": {}
+    }
+  ]
+}

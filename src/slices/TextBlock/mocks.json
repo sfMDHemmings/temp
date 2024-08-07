@@ -1,0 +1,20 @@
+[
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "default",
+		"primary": {
+			"content": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "paragraph",
+						"content": {
+							"text": "Amet et quis eu aliqua dolore quis quis qui anim nisi consectetur. Sit consectetur tempor in et."
+						}
+					}
+				]
+			}
+		},
+		"items": []
+	}
+]

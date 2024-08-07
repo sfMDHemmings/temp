@@ -1,0 +1,73 @@
+[
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "default",
+		"primary": {
+			"name": {
+				"__TYPE__": "FieldContent",
+				"value": "across",
+				"type": "Text"
+			},
+			"logo": {
+				"__TYPE__": "FieldContent",
+				"value": "black",
+				"type": "Text"
+			},
+			"url": {
+				"__TYPE__": "FieldContent",
+				"value": "increase",
+				"type": "Text"
+			},
+			"streetAddress": {
+				"__TYPE__": "FieldContent",
+				"value": "port",
+				"type": "Text"
+			},
+			"addressLocality": {
+				"__TYPE__": "FieldContent",
+				"value": "colony",
+				"type": "Text"
+			},
+			"addressRegion": {
+				"__TYPE__": "FieldContent",
+				"value": "church",
+				"type": "Text"
+			},
+			"addressCountry": {
+				"__TYPE__": "FieldContent",
+				"value": "zero",
+				"type": "Text"
+			},
+			"include_social_profiles": {
+				"__TYPE__": "BooleanContent",
+				"value": false
+			},
+			"facebook": {
+				"__TYPE__": "FieldContent",
+				"value": "perfectly",
+				"type": "Text"
+			},
+			"instagram": {
+				"__TYPE__": "FieldContent",
+				"value": "phrase",
+				"type": "Text"
+			},
+			"linkedin": {
+				"__TYPE__": "FieldContent",
+				"value": "before",
+				"type": "Text"
+			},
+			"twitter": {
+				"__TYPE__": "FieldContent",
+				"value": "journey",
+				"type": "Text"
+			},
+			"type": {
+				"__TYPE__": "FieldContent",
+				"value": "Airline",
+				"type": "Select"
+			}
+		},
+		"items": []
+	}
+]

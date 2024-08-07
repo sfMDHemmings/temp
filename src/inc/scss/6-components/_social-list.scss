@@ -1,0 +1,30 @@
+.social {
+  display: flex;
+  align-items: flex-start;
+  list-style: none;
+  padding: 0;
+
+  &__item {
+    padding: 4px 10px;
+  }
+
+  &__link {
+    color: $c-link;
+    text-decoration: underline;
+
+    &:hover {
+      color: $c-link-hover;
+      text-decoration: none;
+    }
+
+    &--light {
+      color: $c-link-light;
+      text-decoration: underline;
+
+      &:hover {
+        color: $c-link-light-hover;
+        text-decoration: none;
+      }
+    }
+  }
+}

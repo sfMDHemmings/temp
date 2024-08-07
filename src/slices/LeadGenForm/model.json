@@ -1,0 +1,16 @@
+{
+    "id": "lead_gen_form",
+    "type": "SharedSlice",
+    "name": "LeadGenForm",
+    "description": "LeadGenForm",
+    "variations": [
+        {
+            "id": "default",
+            "name": "Default",
+            "docURL": "...",
+            "version": "initial",
+            "description": "Default",
+            "imageUrl": ""
+        }
+    ]
+}

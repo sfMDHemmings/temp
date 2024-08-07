@@ -1,0 +1,35 @@
+.card {
+    border: 1px solid $c-demo-grayscale-200;
+    border-radius: 8px;
+    overflow: hidden;
+    width: 100%;
+
+    &__link {
+        &:hover {
+            transition: $transition-base;
+            text-decoration: none;
+            opacity: 0.9;
+        }
+    }
+
+    // TODO: should this be its onw partial wit hit being an actual component.....
+    &__image {
+        position: relative;
+        width: 100%;
+        min-height: 300px; // TODO: tbc
+
+        & > img {
+            object-fit: cover;
+        }
+    }
+
+    // TODO: should this be its onw partial wit hit being an actual component.....
+    &__content {
+        color: $c-text;
+        padding: 20px;
+    }
+
+    &__content-title {
+        margin-bottom: 20px;
+    }
+}

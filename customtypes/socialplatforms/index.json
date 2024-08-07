@@ -1,0 +1,46 @@
+{
+  "id": "socialplatforms",
+  "label": "SocialPlatforms",
+  "format": "custom",
+  "repeatable": false,
+  "status": true,
+  "json": {
+    "Social Platforms": {
+      "facebook": {
+        "type": "Text",
+        "config": {
+          "label": "Facebook",
+          "placeholder": "Add Facebook handle"
+        }
+      },
+      "twitter": {
+        "type": "Text",
+        "config": {
+          "label": "Twitter",
+          "placeholder": "Add Twitter handle "
+        }
+      },
+      "instagram": {
+        "type": "Text",
+        "config": {
+          "label": "Instagram",
+          "placeholder": "Add Instagram handle"
+        }
+      },
+      "linkedin": {
+        "type": "Text",
+        "config": {
+          "label": "LinkedIn",
+          "placeholder": "Add LinkedIn handle"
+        }
+      },
+      "tiktok": {
+        "type": "Text",
+        "config": {
+          "label": "Tiktok",
+          "placeholder": "Add Tiktok handle"
+        }
+      }
+    }
+  }
+}
